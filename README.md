@@ -1,6 +1,6 @@
 ## Config
 
-* In `index.php` change the following variables to suit your needs:
+* In `index.html` change the following variables to suit your needs:
 
 ```js
 var owner = '';
