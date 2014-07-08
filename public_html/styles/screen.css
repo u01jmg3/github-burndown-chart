@@ -1,0 +1,116 @@
+body {
+    font-family: "Roboto Slab", "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #dcd5c4;
+    font-size: .9em;
+    font-weight: 300;
+    margin: 15px 30px;
+}
+
+.repo-link {
+    color: #736451;
+    cursor: pointer;
+}
+
+.jqplot-series-canvas, .jqplot-event-canvas {
+    z-index: 1;
+}
+
+.progress-container {
+    min-width: 300px;
+    margin-top: 25px;
+}
+
+#chart {
+    min-width: 300px;
+    max-height: 300px;
+    width: 100%;
+}
+
+.jqplot-title {
+    color: #736451;
+    font-weight: 400;
+    z-index: 1;
+    padding-bottom: 15px;
+}
+
+.jqplot-xaxis {
+    padding-top: 3px;
+}
+
+.jqplot-yaxis {
+    padding-right: 7px;
+}
+
+.jqplot-highlighter-tooltip {
+    background-color: black;
+    color: white;
+    opacity: .75;
+    border-radius: 3px;
+    padding: 5px;
+    max-width: 200px;
+    font-size: .8rem;
+    z-index: 1;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.green {
+    background-color: #86bb80;
+}
+
+.darker-green {
+    background-color: #79a873;
+}
+
+.open {
+    float: right;
+    color: #86bb80;
+}
+
+.open:hover {
+    color: #79a873;
+}
+
+.red {
+    background-color: #e36e36;
+}
+
+.darker-red {
+    background-color: #cc6331;
+}
+
+.closed {
+    float: left;
+    color: #e36e36;
+}
+
+.closed:hover {
+    color: #cc6331;
+}
+
+.stats {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+.open-bar {
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    line-height: 40%;
+    cursor: pointer;
+}
+
+.closed-sub-bar {
+    height: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px 0;
+    font-size: .6rem;
+    cursor: pointer;
+}

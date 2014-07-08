@@ -1,0 +1,7 @@
+{
+  "name": "GitHub Burndown Chart",
+  "version": "1.0.0",
+  "dependencies": {
+    "jqplot-bower" : "1.0.8"
+  }
+}
