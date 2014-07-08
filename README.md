@@ -12,6 +12,7 @@ var accessToken = '';
 * `repo` is the lowercase name of the repository you want to produce a burndown chart for
 * `accessToken` can be generated from:
   * https://github.com/settings/applications > Personal access tokens
+    * Your token only needs the `repo` scope to be ticked
   
 ## Example
   
