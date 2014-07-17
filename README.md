@@ -13,7 +13,11 @@ var accessToken = '';
 * `accessToken` can be generated from:
   * https://github.com/settings/applications > Personal access tokens
     * Your token only needs the `repo` scope to be ticked
-  
+
 ## Example
-  
+
 ![01](https://github.com/u01jmg3/github-burndown-chart/raw/master/test/example.png)
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT) © [Jonathan Goode](http://jonathangoode.co.uk)
